@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#3b82f5, #4a7dff);
+}
+
+#container {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    padding: 4px 12px;
+}
+
+#search input {
+    border: none;
+    /* background: #f0f8ff; */
+    background-color: transparent;
+    font-size: 16px;
+    width: 100%;
+}
+
+#search input:focus { /*retirar borda do input*/
+    outline: none;
+}
+
+#search button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#weather {
+    display: none;
+    margin-top: 20px;
+}
+
+#weather.show {
+    display: block;
+}
+
+#weather #title {
+    text-align: center;
+    margin-bottom: 5px;
+    /* font-weight: 600; */
+    color: #372f3f;
+}
+
+#temp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /*espaço entre imagem e temperatura*/
+    background: linear-gradient(#5a7cdc, #606dde);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+/* Sombra na imagem aqui */
+
+#temp_value {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 55px; /*espaço em baixo*/
+}
+
+#temp_description {
+    font-size: 20px;
+    text-transform: capitalize; /*trazer palavra da api com primeira letra maiuscula*/
+}
+
+#other_infos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+#other_infos .info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 4px 10px;
+    border-radius: 8px;
+    gap: 15px;
+}
+
+#other_infos .info h2 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#other_infos .info i {
+    text-align: center;
+    font-size: 20px;
+    width: 20%;
+}
+
+
+/* Cores dos icones */
+#temp_max_icon {
+    color: #7f1d1d;
+}
+
+#temp_min_icon {
+    color: #0284c7;
+}
+
+#humidity_icon {
+    color: #0ea5e9;
+}
+
+#wind_icon {
+    color: #7c3aed;
+}
+
+#alert {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 20px;
+}
+#alert img {
+    width: 200px;
+    margin-top: 20px;
+}
+
