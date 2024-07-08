@@ -18,4 +18,4 @@ Neste projeto utilizei a API do OpenWeather para retornar clima, temperaturas, u
 **Front-end:** HTML, CSS, JavaScript
 
 ## 🔗 Links
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/leonardofv)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/leonardofv](https://www.linkedin.com/in/leonardo-fonteles/))
