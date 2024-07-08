@@ -4,7 +4,7 @@ Neste projeto utilizei a API do OpenWeather para retornar clima, temperaturas, u
 
 ## Referência
 
- - [OpenWeather API](https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key})
+ - [OpenWeather API]([https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}](https://openweathermap.org/current#name))
 
 ## Funcionalidades
 
